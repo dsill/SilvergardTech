@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectInfo>
+    <Name>AngeionCalcs</Name>
+    <LastWriteTime>2016-11-28T23:29:11.012564Z</LastWriteTime>
+    <LastKnownProtectionLevel>EncryptSensitiveWithPassword</LastKnownProtectionLevel>
+    <Salt>PlV5/wA0</Salt>
+    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0GF7yurJ5UeWYV99Caw1ZQAAAAACAAAAAAAQZgAAAAEAACAAAABnUaNNQeFa4n/BJKdtNGfzZYdkeV3e9VGGHd9uwLqJawAAAAAOgAAAAAIAACAAAABHkMY9mcy2xH2s6fLVYtvSyZoGjDeBo686i/fIEoEOgDAAAAAdfGGzxyWw4Ug+QMxuw5MN5hYgM5xiRP+/G2+H3cLhvXtJrOc+VJ4/sgSxjQBSv1FAAAAATUMgrNwHvmXpJsEOKQgyYqunT7Nz8yTXzi1JyTIncTWBM+iV27SbhICaPrwGp1+0pvUa4EF+3VmFrbd3Fs4clQ==</LastKnownProtectedHashedPassword>
+  </ProjectInfo>
+  <LastBuildInfos>
+    <ProjectBuildItemInfo>
+      <Name>LookupImport.dtsx</Name>
+      <LastWriteTime>2016-12-05T20:00:47.4459369Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithPassword</LastKnownProtectionLevel>
+      <Salt>EWvyHGaJ</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0GF7yurJ5UeWYV99Caw1ZQAAAAACAAAAAAAQZgAAAAEAACAAAAAi6F2fhU6Dj8yFVP+E/AULAxWFeqOV9hnYokDtIWx0EgAAAAAOgAAAAAIAACAAAABsYRwubvNsOF9x427OHTKygDVPN5ZIeGFIK9sJR4+d8jAAAAD9SEF97v46yOOxBJ7w7MTSbaFsD3UGfk3w6GGrWcjl6vOpzCLF4bg9M2o5F4GgD3hAAAAAKsjFKgzCCfPTO3eEVSeFEUitj9QxovIZfAVG68GmTTG4yg8T9ux2071Qb0Nd767svKYwHdiNcfhlrMs/3d+qeA==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CaseImport.dtsx</Name>
+      <LastWriteTime>2016-12-05T20:00:49.7355081Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithPassword</LastKnownProtectionLevel>
+      <Salt>HoqZP9Wk</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0GF7yurJ5UeWYV99Caw1ZQAAAAACAAAAAAAQZgAAAAEAACAAAACejJThG5IOgVI9GSGvFBhjbcMehbIxic834/kH+52i6gAAAAAOgAAAAAIAACAAAAB4SvOKaGVpZ6Qopd5PAJg7ORlrycD+3mImluPHkrCv+jAAAAA1FuRY0AZRzD6RbR5JzBmam6sZKRSXZG1+tGh0zBKBgTvKp6bjDaASFf+DnQeLRCpAAAAA5vYIoTSWtWcuGJcVkOgPxPY+uptkNmWa5SHFXtkTRSLF1RSJZ8DOvFWmMW6Hon72+mXoHPgRY6X4dXuNY7di+Q==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+  </LastBuildInfos>
+</BuildLog>

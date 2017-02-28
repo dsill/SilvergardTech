@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AngeionCalcs-SQL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ds-desktop:DS-DESKTOP\Daniel">
+          <Created>2016-10-19T15:25:43.0139771-04:00</Created>
+          <Type>SQL</Type>
+          <Server>ds-desktop</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="create_data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ds-desktop:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ds-desktop</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>create_data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_foreign_keys.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ds-desktop:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ds-desktop</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>create_foreign_keys.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_permissions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_permissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ds-desktop:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ds-desktop</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>create_schema.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ds-desktop:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ds-desktop</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>create_types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="drop_schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ds-desktop:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ds-desktop</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>drop_schema.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP-ImportCoordinator.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SP-ImportCoordinator.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP-ImportDequeue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ds-desktop:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ds-desktop</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP-ImportDequeue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP-ImportLog_Add.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SP-ImportLog_Add.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP-ImportLog_Update.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SP-ImportLog_Update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql-assistant.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ds-desktop:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ds-desktop</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sql-assistant.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

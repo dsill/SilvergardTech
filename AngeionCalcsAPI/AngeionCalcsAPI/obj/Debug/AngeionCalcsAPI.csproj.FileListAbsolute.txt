@@ -1,0 +1,112 @@
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\ApplicationInsights.config
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\csc.exe
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\vbc.exe
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\VBCSCompiler.exe
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.dll.config
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.XML
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.pdb
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.DependencyCollector.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.Web.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.WindowsServer.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.ApplicationInsights.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Newtonsoft.Json.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Net.Http.Formatting.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Helpers.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.WebHost.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Mvc.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Razor.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Razor.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.DependencyCollector.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.Web.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.WindowsServer.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.ApplicationInsights.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Helpers.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Mvc.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Razor.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Deployment.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Razor.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Newtonsoft.Json.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Net.Http.Formatting.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.WebHost.xml
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\obj\Debug\AngeionCalcsAPI.csprojResolveAssemblyReference.cache
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\obj\Debug\AngeionCalcsAPI.dll
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\obj\Debug\AngeionCalcsAPI.pdb
+E:\Silvergard Technologies\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\BLToolkit.4.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\ApplicationInsights.config
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\csc.exe
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\vbc.exe
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\VBCSCompiler.exe
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.dll.config
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.XML
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\AngeionCalcsAPI.pdb
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\BLToolkit.4.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.DependencyCollector.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.Web.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.WindowsServer.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.ApplicationInsights.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Newtonsoft.Json.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Net.Http.Formatting.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Helpers.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.WebHost.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Mvc.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Razor.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Deployment.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Razor.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.DependencyCollector.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.Web.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.AI.WindowsServer.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.ApplicationInsights.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Helpers.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Mvc.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Razor.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Deployment.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.WebPages.Razor.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\Newtonsoft.Json.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Net.Http.Formatting.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\bin\System.Web.Http.WebHost.xml
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\obj\Debug\AngeionCalcsAPI.csprojResolveAssemblyReference.cache
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\obj\Debug\AngeionCalcsAPI.dll
+E:\SGT\Projects\Dev\AngeionCalcsAPI\AngeionCalcsAPI\obj\Debug\AngeionCalcsAPI.pdb

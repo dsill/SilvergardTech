@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AngeionCalcs", "AngeionCalcs\AngeionCalcs.dtproj", "{AF73CB23-B620-4F69-8EBB-43625D230832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DS-DESKTOP|Default = DS-DESKTOP|Default
+		DS-LAPTOP|Default = DS-LAPTOP|Default
+		PROD|Default = PROD|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF73CB23-B620-4F69-8EBB-43625D230832}.DS-DESKTOP|Default.ActiveCfg = DS-DESKTOP
+		{AF73CB23-B620-4F69-8EBB-43625D230832}.DS-DESKTOP|Default.Build.0 = DS-DESKTOP
+		{AF73CB23-B620-4F69-8EBB-43625D230832}.DS-LAPTOP|Default.ActiveCfg = DS-LAPTOP
+		{AF73CB23-B620-4F69-8EBB-43625D230832}.DS-LAPTOP|Default.Build.0 = DS-LAPTOP
+		{AF73CB23-B620-4F69-8EBB-43625D230832}.PROD|Default.ActiveCfg = PROD
+		{AF73CB23-B620-4F69-8EBB-43625D230832}.PROD|Default.Build.0 = PROD
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

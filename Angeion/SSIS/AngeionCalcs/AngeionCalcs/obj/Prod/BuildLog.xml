@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectInfo>
+    <Name>AngeionCalcs</Name>
+    <LastWriteTime>2016-10-25T23:10:59.2490132Z</LastWriteTime>
+    <LastKnownProtectionLevel>EncryptSensitiveWithPassword</LastKnownProtectionLevel>
+    <Salt>dkJ8KtV5</Salt>
+    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx/tSwD8tB0isvF+baWzyPAAAAAACAAAAAAAQZgAAAAEAACAAAAAgHMkqKxkGgEHklhX6RShYzumjZck6Bjlr75oxw8eJWwAAAAAOgAAAAAIAACAAAAD7E/VqMPlPgD41MwhZqizUe6j6EyFd9Y+0h2qg/jyKejAAAAAQK/KvnKOSsNFWk2/OnrE2MvTMXg6LnkbUWC3wMHcuC1ZxEuDVNT7yjvMrlOQIRN9AAAAAzhhxDU8GZ/NDyTF2nX3TQIh8CjrDOXnmU0oeYtXwRQ85MFGJxbDTgpLmdiCoszD+cO1XnPcZ8z4Cpd0oD8CU5g==</LastKnownProtectedHashedPassword>
+  </ProjectInfo>
+  <LastBuildInfos>
+    <ProjectBuildItemInfo>
+      <Name>Package.dtsx</Name>
+      <LastWriteTime>2016-10-25T23:11:22.4506481Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithPassword</LastKnownProtectionLevel>
+      <Salt>KLDwHYBa</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx/tSwD8tB0isvF+baWzyPAAAAAACAAAAAAAQZgAAAAEAACAAAAAuMMnXrI7awKqIBR14l6HwlEVm0BnjExf7xwTo+h/QiQAAAAAOgAAAAAIAACAAAADzWu+8ic/XWUZkEQH8Ib2CmgtSAS0PlY55VOVWRJSVEjAAAACwcpJ8p8NDPU+i+k6fJUHsIfeK58SJcKiQ0LOoVD4ZNQhIHEwMnwhafgTRKcResvZAAAAAMEIeK2ipiALkwIXtMtIctcWMt2Te3ETYcUksTHyLxw3wWTMW6Oe+LZ40WJs1OGAlNRMSrk72JL7I9EBPdACWBA==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+  </LastBuildInfos>
+</BuildLog>

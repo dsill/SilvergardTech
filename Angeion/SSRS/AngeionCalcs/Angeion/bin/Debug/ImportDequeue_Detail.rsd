@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description />
+  <DataSet Name="ImportDequeue_Detail">
+    <Query>
+      <DataSourceReference>AngeionDB</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@ImportLogID">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Int32</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@TimeOffsetHrs">
+          <DefaultValue>0</DefaultValue>
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Int32</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>reports.ImportDequeue_Detail</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ImportLogID">
+        <DataField>ImportLogID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="BatchID">
+        <DataField>BatchID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DateFileImportStarted">
+        <DataField>DateFileImportStarted</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="DateFileImportFinished">
+        <DataField>DateFileImportFinished</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="FileImportTimeInMS">
+        <DataField>FileImportTimeInMS</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="QtyRowsInFile">
+        <DataField>QtyRowsInFile</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="QtyRowsImported">
+        <DataField>QtyRowsImported</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="QtyRowsFail">
+        <DataField>QtyRowsFail</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DateDequeueStarted">
+        <DataField>DateDequeueStarted</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="DateDequeueFinished">
+        <DataField>DateDequeueFinished</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="DequeueTimeInMS">
+        <DataField>DequeueTimeInMS</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="QtyClaims">
+        <DataField>QtyClaims</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="QtyTransactions">
+        <DataField>QtyTransactions</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ImportFileName">
+        <DataField>ImportFileName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ImportStatusID">
+        <DataField>ImportStatusID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ImportStatusName">
+        <DataField>ImportStatusName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ImportMsg">
+        <DataField>ImportMsg</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ImportType">
+        <DataField>ImportType</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

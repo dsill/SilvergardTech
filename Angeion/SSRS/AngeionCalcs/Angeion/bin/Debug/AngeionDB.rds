@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AngeionDB">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DS-LAPTOP;Initial Catalog=AngeionCalcs</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>bd5900a2-731b-4101-b8c1-a4fa9f64572b</DataSourceID>
+</RptDataSource>

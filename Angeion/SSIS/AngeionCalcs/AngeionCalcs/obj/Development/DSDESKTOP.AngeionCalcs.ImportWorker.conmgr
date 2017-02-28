@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DSDESKTOP.AngeionCalcs.ImportWorker"
+  DTS:DTSID="{EA09DCA9-AD92-435F-A48A-A92CF1D27B63}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DSDESKTOP;User ID=ImportWorker;Initial Catalog=AngeionCalcs;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+y8hISqVUUGefeaR8qIEagAAAAACAAAAAAAQZgAAAAEAACAAAABSLN36C1/gANw3HGMObmDqhbCDWIN9JJPJIvNgSsE+sgAAAAAOgAAAAAIAACAAAADb7avYu2S7rccylMhUz89hWG/R+KBxL0o6IfsVm2WvxoAAAAAKnUmbLrwFU294UOvyjKZA1QGU7pfyabE3Zw3TTLU8CdCc3EC1l9dTpnVA/mWEbTD7LSK3fSPKK8zibiUJ9TaWtOTU4eZHiwOQ2SkTrflSiDOx96p+ZdWsGjjFQrHk/B7QNoz2F45nYAYIvgwJahyPlh/LNE+1sEWfXKpsStuygEAAAAA0MDPv+dHrPetrmvQGtTBBcCj8/K345h96O/gbwYSmiLQ7/FXmvEHiJviZ2kXtY39KNQmcBQeAbHwpX7HOxFro</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
