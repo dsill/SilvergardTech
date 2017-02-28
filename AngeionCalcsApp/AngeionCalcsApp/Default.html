@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Datatables -->
+    <link href="vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <!-- PNotify -->
+    <link href="vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+    <!-- Dropzone.js -->
+    <link href="vendors/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="Content/css/custom.min.css" rel="stylesheet">
+
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Case List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <table id="CaseList_tbl"
+                   class="table table-bordered
+                 table-condensed table-striped">
+                <thead>
+                    <tr>
+                        <th>Case Name</th>
+                        <th>Case Code</th>
+                        <th>Created Date</th>
+                        <th>Modified Date</th>
+                        <!--<th>Edit</th>-->
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Case Settings
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="CaseName_lbl">Case Name</label>
+                        <input type="text" id="CaseName_tb"
+                               class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="CaseCode_lbl">Case Code</label>
+                        <input type="text" id="CaseCode_tb"
+                               class="form-control" />
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button type="button" id="CaseSave_btn"
+                                    class="btn btn-primary"
+                                    onclick="updateClick();">
+                                Create
+                            </button>
+                            <button type="button" id="CaseClear_btn"
+                                    class="btn btn-primary"
+                                    onclick="clearClick();">
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" id="CaseID_hf" value="0" />
+    
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- bootbox -->
+    <script src="Scripts/bootbox/bootbox.min.js"></script>
+    <!-- Moment -->
+    <script src="Scripts/moment/moment.min.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="Scripts/datepicker/daterangepicker.js"></script>
+    <!-- FastClick -->
+    <script src="vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="vendors/iCheck/icheck.min.js"></script>
+    <!-- Datatables -->
+    <script src="vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <!-- Dropzone.js -->
+    <script src="vendors/dropzone/dist/min/dropzone.min.js"></script>
+    <!-- CaseList & webAPI -->
+    <script src="Scripts/site/CaseList.js"></script>
+    <script src="Scripts/webAPI/WebAPI.js"></script>
+    <!-- Main -->
+    <script src="Scripts/site/Main.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="Scripts/gentelella/custom.min.js"></script>
+</body>
+
+
+</html>

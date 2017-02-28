@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AG | Case Manager</title>
+
+
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Datatables -->
+    <link href="vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <!-- PNotify -->
+    <link href="vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- Dropzone.js -->
+    <link href="vendors/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="Content/css/custom.min.css" rel="stylesheet">
+    <link href="Content/css/site.css" rel="stylesheet" />
+
+</head>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+
+            <!-- Sidebar navigation -->
+            <div id="SideBar"></div>
+            <!-- /Sidebar navigation -->
+            <!-- top navigation -->
+            <div id="TopNav"></div>
+            <!-- /top navigation -->
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="clearfix"></div>
+                <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="x_panel">
+                        <div class="x_title">
+                            <h2>Filters <small>Filter cases using these options</small></h2>
+                            <ul class="nav navbar-right panel_toolbox_collapse_only">
+                                <li>
+                                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <!-- Filter Status Dropdown -->
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label class="control-label col-xs-12" for="CaseListStatusFilter_dd">Status:</label>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <button id="CaseListStatusFilter_dd" data-id="Active" data-toggle="dropdown" class="btn btn-default dropdown-toggle btn-sm" type="button" aria-expanded="false">
+                                        Show Active &nbsp;&nbsp;&nbsp;&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul role="menu" class="dropdown-menu">
+                                        <li>
+                                            <a href="#" onclick="CaseListStatusFilterChange('Active')">Show Active</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onclick="CaseListStatusFilterChange('Deleted')">Show Deleted</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="#" onclick="CaseListStatusFilterChange('All')">Show All</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /Filter Status Dropdown -->
+                            <!-- Filter datepicker -->
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <label class="control-label col-xs-12" for="CaseListStartDateFilter_cal">Created Date:</label>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <fieldset>
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <div class="col-md-10 col-sm-10 col-xs-10 xdisplay_inputx form-group has-feedback">
+                                                    <input type="text" class="form-control has-feedback-left" id="CaseListStartDateFilter_cal" placeholder="Start Date" aria-describedby="inputSuccess2Status4">
+                                                    <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                                    <span id="inputSuccess2Status4" class="sr-only">(success)</span>
+                                                </div>
+                                                <div class="col-md-2 col-sm-2 col-xs-2" style="padding-left: 0px;">
+                                                    <button class="btn-narrow btn-narrow-form" onclick="ClearFilterInput('CaseListStartDateFilter_cal', 'CreatedDate')"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <div class="col-md-10 col-sm-10 col-xs-10 xdisplay_inputx form-group has-feedback">
+                                                    <input type="text" class="form-control has-feedback-left" id="CaseListEndDateFilter_cal" placeholder="End Date" aria-describedby="inputSuccess2Status4">
+                                                    <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                                    <span id="inputSuccess2Status4" class="sr-only">(success)</span>
+                                                </div>
+                                                <div class="col-md-2 col-sm-2 col-xs-2" style="padding-left: 0px;">
+                                                    <button class="btn-narrow btn-narrow-form" onclick="ClearFilterInput('CaseListEndDateFilter_cal', 'CreatedDate')"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <!-- /Filter datepicker -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="x_panel">
+                        <div class="x_title">
+                            <h2>Case List</h2>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <table id="CaseList_tbl" class="table table-striped jambo_table bulk_action">
+                                    <thead>
+                                        <tr class="headings">
+                                            <th class="column-title">Case ID &nbsp;&nbsp;<button id="CaseIDSort_btn" class="btn-narrow btn-narrow-header" data-id="CaseID" data-sort="asc" data-type="int" onclick="CaseListSortChanged(this)"><span id="CaseIDSort_icon" class="fa fa-sort-asc"></span></button></th>
+                                            <th class="column-title">Case Name &nbsp;&nbsp;<button id="CaseNameSort_btn" class="btn-narrow btn-narrow-header" data-id="CaseName" data-sort="" data-type="string" onclick="CaseListSortChanged(this)"><span id="CaseNameSort_icon" class="fa fa-sort"></span></button></th>
+                                            <th class="column-title">Case Code &nbsp;&nbsp;<button id="CaseCodeSort_btn" class="btn-narrow btn-narrow-header" data-id="CaseCode" data-sort="" data-type="string" onclick="CaseListSortChanged(this)"><span id="CaseCodeSort_icon" class="fa fa-sort"></span></button></th>
+                                            <th class="column-title text-center">Qty CUSIP's &nbsp;&nbsp;<button id="QtyCusipSort_btn" class="btn-narrow btn-narrow-header" data-id="QtyCusip" data-sort="" data-type="int" onclick="CaseListSortChanged(this)"><span id="QtyCusipSort_icon" class="fa fa-sort"></span></button></th>
+                                            <th class="column-title text-right">Created Date &nbsp;&nbsp;<button id="CreatedDateSort_btn" class="btn-narrow btn-narrow-header" data-id="CreatedDate" data-sort="" data-type="date" onclick="CaseListSortChanged(this)"><span id="CreatedDateSort_icon" class="fa fa-sort"></span></button></th>
+                                            <th class="column-title text-right">Modified Date &nbsp;&nbsp;<button id="ModifiedDateSort_btn" class="btn-narrow btn-narrow-header" data-id="ModifiedDate" data-sort="" data-type="date" onclick="CaseListSortChanged(this)"><span id="ModifiedDateSort_icon" class="fa fa-sort"></span></button></th>
+                                            <th class="column-title no-link last">
+                                            </th>
+                                            <th class="bulk-actions" colspan="7">
+                                                <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <button type="button" id="CaseCreate_btn" onclick="CaseCreateEditModal(this)" class="btn-narrow btn-narrow-link btn-narrow-xlg" data-toggle="modal" data-target=".bs-example-modal-lg">
+                            <span data-toggle="tooltip" data-placement="top" title="" data-original-title="Create New Case">
+                                <span class="glyphicon glyphicon-plus-sign"></span>
+                                <span class="btn-narrow text-middle">Add Case</span>
+                            </span>
+                        </button>
+                        
+
+                    </div>
+                </div>
+
+                <!-- Large modal -->
+                <div id="CaseModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                                <h4 class="modal-title" id="CaseModalHeader"></h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="x_panel">
+                                    <div id="CaseModalSubHeader" class="x_title"></div>
+                                    <div class="x_content">
+                                        <br />
+                                        <form class="form-horizontal form-label-left">
+                                            <div id="CaseModalContent" class="form-group"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="CaseModalSave_btn" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                                <button type="button" id="CaseModalClear_btn" class="btn btn-default">Clear</button>
+                                <button type="button" id="CaseModalClose_btn" class="btn btn-default" data-dismiss="modal">Close</button>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Large modal -->
+
+
+                <!-- Hidden field to store CaseID for update -->
+                <input type="hidden" id="CaseID_hf" value="0" />
+                <!-- /Hidden field to store CaseID for update -->
+            </div>
+            <!-- /page content -->
+            <!-- footer content -->
+            <div id="Footer"></div>
+            <!-- /footer content -->
+
+
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- bootbox -->
+    <script src="Scripts/bootbox/bootbox.min.js"></script>
+    <!-- Moment -->
+    <script src="Scripts/moment/moment.min.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="Scripts/datepicker/daterangepicker.js"></script>
+    <!-- FastClick -->
+    <script src="vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="vendors/iCheck/icheck.min.js"></script>
+    <!-- Switchery -->
+    <script src="vendors/switchery/dist/switchery.min.js"></script>
+    <!-- Datatables -->
+    <script src="vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <!-- Dropzone.js -->
+    <!--<script src="vendors/dropzone/dist/min/dropzone.min.js"></script>-->
+    <!-- ECharts -->
+    <!--<script src="vendors/echarts/dist/echarts.min.js"></script>
+    <script src="vendors/echarts/map/js/world.js"></script>-->
+    <!-- Page Specific Scripts -->
+    <!-- SiteGlobals -->
+    <script src="Scripts/site/SiteGlobals.js"></script>
+    <!-- webAPI -->
+    <script src="Scripts/webAPI/WebAPI.js"></script>
+    <!-- Date field initializer -->
+    <script src="Scripts/site/DatePickerInitialize.js"></script>
+    <!-- CaseList -->
+    <script src="Scripts/site/CaseList.js"></script>
+    <!-- CaseAttribute -->
+    <script src="Scripts/site/CaseAttribute.js"></script>
+    
+    <!-- ECharts -->
+    <!--<script src="Scripts/site/eCharts.js"></script>-->
+    <!-- /Page Specific Scripts -->
+    <!-- Site Specific Scripts -->
+    <!-- Initialize Page Sections -->
+    <script src="Scripts/site/Initialize.js"></script>
+    <!-- /Site Specific Scripts -->
+    <!-- Theme Specific Scripts -->
+    <script src="Scripts/site/custom.js"></script>
+    <!-- /Theme Specific Scripts -->
+
+
+</body>
+</html>

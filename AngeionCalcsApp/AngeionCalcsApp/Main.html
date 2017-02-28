@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AG | Case Manager</title>
+
+
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Datatables -->
+    <link href="vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <!-- PNotify -->
+    <link href="vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- Dropzone.js -->
+    <link href="vendors/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="Content/css/custom.min.css" rel="stylesheet">
+
+</head>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+
+            <!-- Sidebar navigation -->
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="Main.html" class="site_title"><i class="fa fa-gavel"></i> <span>Case Manager</span></a>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <br /><br /><br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+
+                            <ul class="nav side-menu">
+                                <li>
+                                    <a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="Main.html?pageID=Dashboard1" onclick="setPageContent('Typography')">Dashboard</a></li>
+                                        <li><a href="Main.html?pageID=Dashboard2" onclick="setPageContent('Typography')">Dashboard2</a></li>
+                                        <li><a href="Main.html?pageID=Dashboard3" onclick="setPageContent('Typography')">Dashboard3</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-folder-open"></i> Cases <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="Main.html?pageID=CaseList" onclick="setPageContent('CaseList')">Case Main</a></li>
+                                        <li><a href="CaseList.html?pageID=CaseList2">Case List</a></li>
+                                        <li><a href="Default.html?pageID=CaseSetup">Case Setup</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-table"></i> Claim Sheets <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="Main.html?pageID=FileImport" onclick="setPageContent('FileImport')">Import a File <span class="label label-success pull-right">Coming Soon</span></a></li>
+                                        <li><a href="Main.html?pageID=ViewFiles" onclick="setPageContent('Typography')">View Files<span class="label label-success pull-right">Coming Soon</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-bar-chart-o"></i> Reports <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="Main.html?pageID=Chart1" onclick="setPageContent('Typography')">Chart JS <span class="label label-success pull-right">Coming Soon</span></a></li>
+                                        <li><a href="Main.html?pageID=Chart2" onclick="setPageContent('Typography')">Chart JS2 <span class="label label-success pull-right">Coming Soon</span></a></li>
+                                        <li><a href="Main.html?pageID=Moris" onclick="setPageContent('Typography')">Moris JS <span class="label label-success pull-right">Coming Soon</span></a></li>
+                                        <li><a href="Main.html?pageID=eCharts" onclick="setPageContent('eCharts')">ECharts</a></li>
+                                        <li><a href="Main.html?pageID=OtherCharts" onclick="setPageContent('Typography')">Other Charts <span class="label label-success pull-right">Coming Soon</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+            <!-- /Sidebar navigation -->
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/users/CFerrara.jpg" alt="">Charlie Ferrara
+                                    <span class="fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="javascript:;"> Profile</a></li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="badge bg-red pull-right">50%</span>
+                                            <span>Settings</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="javascript:;">Help</a></li>
+                                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="clearfix"></div>
+                <div id="PageContent"></div>
+            </div>
+            <!-- /page content -->
+
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right footer_fixed">
+                    Copyright <a href="http://www.silvergardtech.com">Silvergard Technologies, Inc</a> - 2017
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+
+
+        </div>
+    </div>
+            
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- bootbox -->
+    <script src="Scripts/bootbox/bootbox.min.js"></script>
+    <!-- Moment -->
+    <script src="Scripts/moment/moment.min.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="Scripts/datepicker/daterangepicker.js"></script>
+    <!-- FastClick -->
+    <script src="vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="vendors/iCheck/icheck.min.js"></script>
+    <!-- Switchery -->
+    <script src="vendors/switchery/dist/switchery.min.js"></script>
+    <!-- Datatables -->
+    <script src="vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <!-- Dropzone.js -->
+    <script src="vendors/dropzone/dist/min/dropzone.min.js"></script>
+    <!-- ECharts -->
+    <script src="vendors/echarts/dist/echarts.min.js"></script>
+    <script src="vendors/echarts/map/js/world.js"></script>
+    
+    
+    <!-- SiteGlobals -->
+    <script src="Scripts/site/SiteGlobals.js"></script>
+    <!-- webAPI -->
+    <script src="Scripts/webAPI/WebAPI.js"></script>
+    <!-- CaseList -->
+    <script src="Scripts/site/CaseList.js"></script>
+    <!-- CaseAttribute -->
+    <script src="Scripts/site/CaseAttribute.js"></script>
+    <!-- ECharts -->
+    <!--<script src="Scripts/site/eCharts.js"></script>-->
+    <!-- Main -->
+    <script src="Scripts/site/Main.js"></script>
+    <!-- Sidebar -->
+    <script src="Scripts/site/Sidebar.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="Scripts/gentelella/Cropper.js"></script>
+    
+    <script src="Scripts/site/custom.js"></script>
+    
+
+</body>
+</html>

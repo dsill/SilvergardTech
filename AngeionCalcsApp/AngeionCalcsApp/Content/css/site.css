@@ -1,0 +1,217 @@
+﻿.btn-group-xlg > .btn, .btn-xlg {
+    padding: 10px 16px;
+    font-size: 26px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-narrow {
+    display: inline-block;
+    padding: 6px 0px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+    .btn-narrow.active.focus, .btn-narrow.active:focus, .btn-narrow.focus, .btn-narrow:active.focus, .btn-narrow:active:focus, .btn-narrow:focus {
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+
+    .btn-narrow.focus, .btn-narrow:focus, .btn-narrow:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .btn-narrow.active, .btn-narrow:active {
+        background-image: none;
+        outline: 0;
+        -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+        box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    }
+
+    .btn-narrow.disabled, .btn-narrow[disabled], fieldset[disabled] .btn-narrow {
+        cursor: not-allowed;
+        filter: alpha(opacity=65);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        opacity: .65;
+    }
+
+a.btn-narrow.disabled, fieldset[disabled] a.btn-narrow {
+    pointer-events: none;
+}
+
+.btn-narrow-form {
+    font-weight: 400;
+    color: #bbb;
+    border-radius: 0;
+}
+
+    .btn-narrow-form, .btn-narrow-form.active, .btn-narrow-form:active, .btn-narrow-form[disabled], fieldset[disabled] .btn-narrow-form {
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        .btn-narrow-form, .btn-narrow-form:active, .btn-narrow-form:focus, .btn-narrow-form:hover {
+            border-color: transparent;
+        }
+
+            .btn-narrow-form:focus, .btn-narrow-form:hover {
+                color: #777;
+                text-decoration: underline;
+                background-color: transparent;
+            }
+
+            .btn-narrow-form:{
+                color: #bbb;
+                text-decoration: underline;
+                background-color: transparent;
+            }
+
+            .btn-narrow-form[disabled]:focus, .btn-narrow-form[disabled]:hover, fieldset[disabled] .btn-narrow-form:focus, fieldset[disabled] .btn-narrow-form:hover {
+                color: #bbb;
+                text-decoration: none;
+            }
+
+.btn-narrow-form-dark {
+    font-weight: 400;
+    color: #777;
+    border-radius: 0;
+}
+
+    .btn-narrow-form-dark, .btn-narrow-form-dark.active, .btn-narrow-form-dark:active {
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        .btn-narrow-form-dark, .btn-narrow-form-dark:active, .btn-narrow-form-dark:focus, .btn-narrow-form-dark:hover {
+            border-color: transparent;
+        }
+
+            .btn-narrow-form-dark:focus, .btn-narrow-form-dark:hover {
+                color: #333;
+                text-decoration: underline;
+                background-color: transparent;
+            }
+
+            .btn-narrow-form-dark {
+                color: #777;
+                text-decoration: underline;
+                background-color: transparent;
+            }
+
+            .btn-narrow-form-dark[disabled], fieldset[disabled] .btn-narrow-form-dark, .btn-narrow-form-dark[disabled]:focus, .btn-narrow-form-dark[disabled]:hover, fieldset[disabled] .btn-narrow-form-dark:focus, fieldset[disabled] .btn-narrow-form-dark:hover {
+                color: #bbb;
+                text-decoration: none;
+            }
+
+.btn-narrow-link {
+    font-weight: 400;
+    color: #337ab7;
+    border-radius: 0;
+}
+
+    .btn-narrow-link, .btn-narrow-link.active, .btn-narrow-link:active, .btn-narrow-link[disabled], fieldset[disabled] .btn-narrow-link {
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        .btn-narrow-link, .btn-narrow-link:active, .btn-narrow-link:focus, .btn-narrow-link:hover {
+            border-color: transparent;
+        }
+
+            .btn-narrow-link:focus, .btn-narrow-link:hover {
+                color: #23527c;
+                text-decoration: none;
+                background-color: transparent;
+            }
+
+            .btn-narrow-link[disabled]:focus, .btn-narrow-link[disabled]:hover, fieldset[disabled] .btn-narrow-link:focus, fieldset[disabled] .btn-narrow-link:hover {
+                color: #777;
+                text-decoration: none;
+            }
+
+.btn-narrow-header {
+    font-weight: 400;
+    color: #fff;
+    border-radius: 0;
+    padding: 0px;
+    border: 0px;
+}
+
+    .btn-narrow-header, .btn-narrow-header.active, .btn-narrow-header:active, .btn-narrow-header[disabled], fieldset[disabled] .btn-narrow-header {
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        .btn-narrow-header, .btn-narrow-header:active, .btn-narrow-header:focus, .btn-narrow-header:hover {
+            border-color: transparent;
+        }
+
+            .btn-narrow-header:focus, .btn-narrow-header:hover {
+                color: #fff;
+                text-decoration: none;
+                background-color: transparent;
+            }
+
+            .btn-narrow-header[disabled]:focus, .btn-narrow-header[disabled]:hover, fieldset[disabled] .btn-narrow-header:focus, fieldset[disabled] .btn-narrow-header:hover {
+                color: #777;
+                text-decoration: none;
+            }
+
+
+.btn-narrow-group-xlg > .btn-narrow, .btn-narrow-xlg {
+    padding: 10px 16px;
+    font-size: 26px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-narrow-group-lg > .btn-narrow, .btn-narrow-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-narrow-group-sm > .btn-narrow, .btn-narrow-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-narrow-group-xs > .btn-narrow, .btn-narrow-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+
+.text-middle {
+    margin-bottom: 8px;
+}
+
+.tr-deleted {
+    color: darkgrey;
+}
