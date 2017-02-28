@@ -7,7 +7,7 @@
 
     if (PageContentName == 'CaseList') {
 
-        CaseList(); //CaseList.js
+        CaseList(PageContentName); //CaseList.js
 
     }
     else if (PageContentName == 'FileImport') {

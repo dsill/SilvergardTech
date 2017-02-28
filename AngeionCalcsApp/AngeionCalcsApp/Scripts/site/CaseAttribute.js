@@ -25,7 +25,7 @@
 
 function CaseAttributeModalList_Get(obj) {
     var CaseID = $(obj).data("id");
-    var action = "CaseAttributeModalList";
+    var action = $(obj).data("action");
 
     // Call Web API to get a list of CaseAttributes
     CaseAttributeAPIGet(action, CaseID);
@@ -38,7 +38,7 @@ function CaseAttributeModalList_Get(obj) {
 function CaseAttributeAPIGet(action, CaseID) {
     // Call Web API to get a list of CaseAttributes
     component = "caseattribute/";
-    Get_API2(component, action, CaseAttributeRecord, CaseID);
+    Get_API(component, action, CaseAttributeRecord, CaseID);
 
 }
 
@@ -102,7 +102,7 @@ function CaseAttributeRecordGetSuccess(action, CaseAttributeObject) {
     //    CaseAttributeListBuild(CaseAttributeRecord);
     //});
 
-    if (action == "CaseAttributeModalList")
+    if (action == "CaseAttributeSetup")
     {
         CaseAttributeSettingsModal_Build(CaseAttributeObject);
     }

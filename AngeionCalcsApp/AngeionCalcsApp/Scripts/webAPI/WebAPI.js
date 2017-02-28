@@ -4,7 +4,7 @@
 var API_URL = "http://localhost:63245/api/";
 
 
-function GetAll_API(component, object) {
+function GetAll_API(component, action, object) {
     var APIType = "GET";
 
     $.ajax({
@@ -13,7 +13,7 @@ function GetAll_API(component, object) {
         dataType: "json",
         success: function (object) {
             APIType = APIType + "All";
-            handleSucess(component, APIType, object);
+            handleSuccess(component, action, APIType, object);
         },
         error: function (request, message, error) {
             ErrMessage = "WebAPI.js::GetAll_API - " + message;
@@ -23,7 +23,8 @@ function GetAll_API(component, object) {
 
 }
 
-function Get_API(component, object, id) {
+
+function Get_API(component, action, object, id) {
     var APIType = "GET";
 
     $.ajax({
@@ -31,25 +32,7 @@ function Get_API(component, object, id) {
         type: APIType,
         dataType: "json",
         success: function (object) {
-            handleSucess(component, APIType, object);
-        },
-        error: function (request, message, error) {
-            ErrMessage = "WebAPI.js::Get_API - " + message;
-            handleException(request, ErrMessage, error);
-        }
-    });
-
-}
-
-function Get_API2(component, action, object, id) {
-    var APIType = "GET";
-
-    $.ajax({
-        url: API_URL + component + id,
-        type: APIType,
-        dataType: "json",
-        success: function (object) {
-            handleSuccess2(component, action, APIType, object);
+            handleSuccess(component, action, APIType, object);
         },
         error: function (request, message, error) {
             ErrMessage = "WebAPI.js::Get_API - " + message;
@@ -72,7 +55,7 @@ function Add_API(component, object) {
         contentType: "application/json;charset=utf-8",
         data: objectJSON,
         success: function (object) {
-            handleSucess(component, APIType, object);
+            handleSuccess(component, "", APIType, object);
         },
         error: function (request, message, error) {
             message = "WebAPI.js::Add_API - " + message;
@@ -94,7 +77,7 @@ function Update_API(component, object, id) {
         contentType: "application/json;charset=utf-8",
         data: objectJSON,
         success: function (object) {
-            handleSucess(component, APIType, object);
+            handleSuccess(component, "", APIType, object);
         },
         error: function (request, message, error) {
             message = "WebAPI.js::Update_API - " + message;
@@ -114,7 +97,7 @@ function Delete_API(component, id) {
         url: API_URL + component + id,
         type: APIType,
         success: function (id) {
-            handleSucess(component, APIType, id);
+            handleSuccess(component, "", APIType, id);
         },
         error: function (request, message, error) {
             message = "WebAPI.js::Delete_API - " + message;
@@ -125,62 +108,18 @@ function Delete_API(component, id) {
 }
 
 
-function handleSucess(component, APIType, object) {
 
-    var objectJSON = JSON.stringify(object);
-
-    if (component == "case/")
-    {
-        switch (APIType) {
-            case "GETAll":
-                CaseListSuccess(object);
-                break;
-            case "GET":
-                CaseRecordGetSuccess(object);
-                break;
-            case "POST":
-                CaseRecordAddSuccess(object);
-                break;
-            case "PUT":
-                CaseRecordUpdateSuccess(object);
-                break;
-            case "DELETE":
-                CaseRecordDeleteSuccess(object);
-                break;
-        }
-    }
-    else if (component == "caseattribute/")
-    {
-        switch (APIType) {
-            case "GET":
-                CaseAttributeRecordGetSuccess(object);
-                break;
-            //case "PUT":
-            //    CaseRecordUpdateSuccess(object);
-            //    break;
-        }
-    }
-    else
-    {
-        console.log("handleSuccess failed if/else: component: " + component);
-        console.log("handleSuccess failed if/else: APIType: " + APIType);
-    }
-
-    //console.log("responseJSON: " + objectJSON);
-    
-}
-
-function handleSuccess2(component, action, APIType, object) {
+function handleSuccess(component, action, APIType, object) {
 
     var objectJSON = JSON.stringify(object);
 
     if (component == "case/") {
         switch (APIType) {
             case "GETAll":
-                CaseListSuccess(object);
+                CaseListSuccess(action, object);
                 break;
             case "GET":
-                CaseRecordGetSuccess(object);
+                CaseRecordGetSuccess(action, object);
                 break;
             case "POST":
                 CaseRecordAddSuccess(object);

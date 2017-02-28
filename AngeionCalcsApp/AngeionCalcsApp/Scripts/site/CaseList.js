@@ -33,10 +33,10 @@ function clearClick(obj) {
     }
 }
 
-function CaseList() {
+function CaseList(action) {
     // Call Web API to get a list of Cases
     component = "case/";
-    GetAll_API(component, CaseRecord);
+    GetAll_API(component, action, CaseRecord);
 
     
 }
@@ -44,13 +44,14 @@ function CaseList() {
 function CaseRecordGet(obj) {
     // Get CaseID from data- attribute
     var CaseID = $(obj).data("id");
+    var action = $(obj).data("action");
 
     // Store CaseID in hidden field
     $("#CaseID_hf").val(CaseID);
 
     // Call Web API to get a list of Cases
     component = "case/";
-    Get_API(component, CaseRecord, CaseID);
+    Get_API(component, action, CaseRecord, CaseID);
 }
 
 function CaseRecordAdd(CaseRecord) {
@@ -144,6 +145,7 @@ function CaseListBuildTableRow(CaseRecord) {
                         "data-toggle='modal'" +
                         "data-target='.bs-example-modal-lg'" +
                         "data-id='" + CaseRecord.CaseID + "' " +
+                        "data-action='CaseEdit' " +
                         isEditDisabled + " >" +
                         "<span class='glyphicon glyphicon-pencil' " + EditToolTip + " />" +
                     "</button>" +
@@ -154,6 +156,7 @@ function CaseListBuildTableRow(CaseRecord) {
                         "data-toggle='modal'" +
                         "data-target='.bs-example-modal-lg'" +
                         "data-id='" + CaseRecord.CaseID + "' " +
+                        "data-action='CaseAttributeSetup' " +
                         isSetupDisabled + " >" +
                         "<span class='glyphicon glyphicon-cog' " + SetupToolTip + " />" +
                     "</button>" +
@@ -182,7 +185,7 @@ function CaseListBuildTableRow(CaseRecord) {
     return ret;
 }
 
-function CaseListSuccess(CaseList) {
+function CaseListSuccess(action, CaseList) {
     CaseListUnfiltered = CaseList;
 
     //Check filter and build table
@@ -400,9 +403,15 @@ function ProcessJSON(CaseListFiltered) {
 }
 
 
-function CaseRecordGetSuccess(CaseRecord) {
+function CaseRecordGetSuccess(action, CaseRecord) {
 
-    CaseRecordToFields(CaseRecord);
+    if (action == 'CaseEdit') {
+
+        CaseEditModalSetValues(CaseRecord);
+
+    }
+
+    
 }
 
 function CaseRecordAddSuccess(CaseRecord) {
@@ -426,19 +435,25 @@ function CaseRecordTableClear() {
 }
 
 function CaseRecordTableReload() {
+    var action = "CaseList";
     formClear();
     CaseRecordTableClear();
-    $("#CaseList_tbl tbody").append(CaseList());
+    $("#CaseList_tbl tbody").append(CaseList(action));
     
 }
 
+function CaseEditModalSetValues(CaseRecord) {
 
-function CaseRecordToFields(CaseRecord) {
+    //Set CaseModal header text
+    $("#CaseModalHeader").text("Case Edit: " + CaseRecord.CaseName);
+
+    //Set text box values
     $("#CaseName_tb").val(CaseRecord.CaseName);
     $("#CaseCode_tb").val(CaseRecord.CaseCode);
 
 
 }
+
 
 
 function formClear() {
@@ -478,7 +493,7 @@ function CaseCreateEditModal(obj) {
 
 
 function CaseCreateEditModalBuild(obj) {
-
+    var action = "CaseCreate"
     $("#CaseModalContent").append(CaseCreateEditModalHtml(obj));
 
     if (obj.id == "CaseCreate_btn") {
@@ -492,8 +507,7 @@ function CaseCreateEditModalBuild(obj) {
         $("#CaseModalSave_btn").prop("disabled", true);
     }
     else {
-        //Set CaseModal header text
-        $("#CaseModalHeader").text("Case Edit");
+        
 
         //Set modal button properties
         $("#CaseModalSave_btn").text("Update");
